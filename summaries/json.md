@@ -3,7 +3,7 @@
 **Category:** Data Handling / Logs & API Data  
 
 **What it is:**  
-The `json` library is part of Python’s standard library for working with JSON data. It allows parsing (reading) and serializing (writing) JSON, making it ideal for handling structured data in logs, API responses, configuration files, and cybersecurity workflows.  
+The `json` library is part of Python’s standard library for working with JSON data. It allows parsing (reading) and serializing (writing) JSON, making it ideal for handling structured data in logs, API responses, configuration files, and cybersecurity workflows. In some of these examples, I've used an amazing API for practicing working with heavily nested json called pokeAPI. You can find it here: https://pokeapi.co/. This API has been extremely valuable for me when it comes to drilling in workflows with data handling and filtering.
 
 **Use cases:**  
 - Parsing JSON from API responses or files  
