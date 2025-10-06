@@ -163,7 +163,7 @@ user_profile = {
 }
 latest_ip = user_profile['login_history'][-1]['ip']
 ```
-#### More advanced and professional techniques when you understand JSON patterns and nesting
+### More advanced and professional techniques when you understand JSON patterns and nesting
 ```Python
 # Safe key access
 log_entry = {"user": "alice", "status": "SUCCESS"}
@@ -184,7 +184,7 @@ import json
 data = {"user": "alice", "details": {"group": "admin", "active": True}}
 print(json.dumps(data, indent=4))
 ```
-### Output (.get and error handling)
+#### Output (.get and error handling)
 ```bash
 Source IP: N/A
 Processed line 1: {'status': 'SUCCESS'}
