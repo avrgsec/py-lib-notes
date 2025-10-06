@@ -9,7 +9,15 @@ Pandas is a Python library for structured data analysis. It allows you to effici
 - Filtering and summarizing network traffic logs  
 - Parsing structured CSV, JSON, or Excel files  
 - Identifying anomalous or blocked traffic  
-- Preparing datasets for further analysis or visualization  
+- Preparing datasets for further analysis or visualization
+
+## 📖 Table of Contents
+
+- [Example Snippets](#-example-snippets)
+  - [Basic Usage](#basic-usage)
+  - [Workflow Example: Network Traffic Analysis](#workflow-example-network-traffic-analysis)
+  - [Notes/Tips](#notes/tips)
+
 
 ---
 
@@ -75,3 +83,8 @@ blocked_summary = blocked_traffic[['timestamp','source_ip','destination_ip','use
 df = df.drop(columns=['column_to_remove'])
 print(df.head(5))
 ```
+### Notes/Tips
+- Always check for missing or malformed data before filtering
+- Combine multiple conditions with & (AND) or | (OR).
+- Use .loc[] and .iloc[] for precise row/column selection.
+- Ideal for quickly analyzing logs or network capture data before moving to more specialized tools.
