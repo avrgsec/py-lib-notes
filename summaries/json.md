@@ -14,6 +14,17 @@ The `json` library is part of Python’s standard library for working with JSON 
 
 ---
 
+## 📖 Table of Contents
+
+- [Core Concepts: Single Document vs Log Stream](#core-concepts-single-document-vs-log-stream)
+- [Workflow A: Processing a "Single Document" (API/File)](#workflow-a-processing-a-single-document-apifile)
+- [Workflow B: Processing a "Log Stream" (Line by Line)](#workflow-b-processing-a-log-stream-line-by-line)
+- [Workflow C: Cross-Reference (Nested Loop)](#workflow-c-cross-reference-nested-loop)
+- [Advanced Patterns: Counting and Filtering](#advanced-patterns-counting-and-filtering)
+- [Navigating Nested JSON](#navigating-nested-json)
+- [Professional Techniques](#More-advanced-and-professional-techniques-when-you-understand-JSON-patterns-and-nesting)
+- [Notes / Tips](#-notes-tips)
+
 ## 🔹 Example Snippets  
 
 ### Core Concepts: Single Document vs Log Stream
