@@ -82,6 +82,10 @@ blocked_summary = blocked_traffic[['timestamp','source_ip','destination_ip','use
 # Remove column
 df = df.drop(columns=['column_to_remove'])
 print(df.head(5))
+
+# Re-order columns
+df = df[[['col1', 'col2', 'col3', 'col4']]
+print(df)
 ```
 ### Notes/Tips
 - Always check for missing or malformed data before filtering
