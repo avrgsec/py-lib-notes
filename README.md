@@ -25,6 +25,7 @@ Each summary is written in Markdown and includes an overview, use cases, and sma
 | [json](summaries/json.md)         | Built-in module for encoding/decoding JSON, useful for configs, logs, and API responses. |
 | [requests](summaries/requests.md) | Simplified HTTP client for web requests, automation, and API testing.                    |
 | [pandas](summaries/pandas.md)     | Data handling & analysis; ideal for working with logs, CSVs, and structured datasets.    |
+| [example-scripts](py-lib-notes/example-scripts)     | A repository of scripts that can be used as a reference when writing tools    |
 
 ---
 
