@@ -92,3 +92,4 @@ print(df)
 - Combine multiple conditions with & (AND) or | (OR).
 - Use .loc[] and .iloc[] for precise row/column selection.
 - Ideal for quickly analyzing logs or network capture data before moving to more specialized tools.
+- If working with JSON, remember to extract the keys you want to work with before loading into DataFrame
