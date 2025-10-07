@@ -203,3 +203,31 @@ Processed line 1: {'status': 'SUCCESS'}
 - Use line-by-line parsing for large log streams to conserve memory.
 - Combine filtering and counting to generate summaries efficiently.
 - Pretty-print for debugging complex structures.
+  
+----------------------
+### Quick Reference Scripts
+
+#### List available top level keys from API Response
+```Python
+import requests
+import json
+import pandas as pd
+
+api_url = "https://api.first.org/data/v1/epss"
+
+try:
+    response = requests.get(api_url)
+    if response.status_code == 200:
+        print(f"Successful connection: {response.status_code}")
+
+        data = response.json()
+        keys = data.keys()
+        key_list = list(keys)
+        print(key_list)
+
+    else:
+        print(f"Unable to connect to Endpoint: {response.status_code}")
+
+except requests.exceptions.RequestException as error:
+    print(f"Unable to connect to Endpoint: {error}")
+```
