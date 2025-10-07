@@ -49,6 +49,10 @@ name_age = df[['Name','Age']]   # Multiple columns
 older_students = df[df['Age'] > 30]
 filtered_df = df[(df['Age'] > 30) & (df['City'] == 'Tokyo')]
 filter_or = df[(df['Age'] > 35) | (df['City'] == 'Paris')]
+
+# Sorting
+new_dataframe = df.sort_values(by='col', ascending=False)
+print(new_dataframe)
 ```
 
 ### Workflow Example: Network Traffic Analysis
